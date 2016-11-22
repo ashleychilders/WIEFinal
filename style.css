@@ -21,6 +21,7 @@ Text Domain: Ashley_Childers_blank_template
 h1, h2, h3, h4, h5, h6 {
   color: #999999;
   font-weight: 700;
+  font-family: 'Bree Serif', serif;
 }
 
 h1 {
@@ -48,14 +49,30 @@ h6 {
 }
 
 a {
-  color: #ee2c2c;
+  color: #ffffff;
   text-decoration: none;
+}
+
+/*---- Header -----*/
+.headerphoto {
+  padding-top: 30px;
+  position: relative;
+}
+.header-wrapper {
+  background-color: #cccccc;
+  padding: 10px;
 }
 /*--- Menu --- */
 
-.blank-menu-header {
+span.blank-menu-header{
+    position: absolute;
+    margin-top: 170px;
     text-align: left;
-    margin-top: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4rem;
+    width: 100%;
+    color: #ffffff;
+    left: 0;
 }
 .blank-menu-header ul {
     margin: 0;
@@ -70,8 +87,6 @@ a {
     text-decoration:none;
     margin: 4px;
     padding: 5px 0px 5px 40px;
-    font-weight: 300;
-    font-size: 1.1rem;
 }
 .blank-menu-header ul li a:hover {
     color: #cccccc;
