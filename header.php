@@ -7,28 +7,28 @@
 
   <!-- Links to our Style.css file -->
    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
-
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
   <!--
   <link rel="stylesheet" type="text/css" href="style.css" />
   <script src-"custom.js"></script>
 -->
 <body>
-  <div class="container">
-  <header class="row">
-      <div class="twelve columns">
-          <h1><a href="<?php $url = home_url('/');echo $url;?>"
-              <?php bloginfo('name'); ?>
-          </a></h1>
-          <h2><?php bloginfo('description'); ?></h2>
-      </div>
+  <div class="header-wrapper">
+    <header class="container">
+        <div class="twelve columns">
+            <h1><a href="<?php $url = home_url('/');echo $url;?>"
+                <?php bloginfo('name'); ?>
+            </a></h1>
+            <h2><?php bloginfo('description'); ?></h2>
+        </div>
+      <div class="row">
+        <div class="twelve columns">
+          <?php
+            wp_nav_menu(array(
+                'sort_column' => 'menu_order',
+                'container_class' => 'blank-menu-header'
+            ));?>
+        </div>
+    </div>
   </header>
-    <div class="row">
-      <div class="twelve columns">
-        <?php
-          wp_nav_menu(array(
-              'sort_column' => 'menu_order',
-              'container_class' => 'blank-menu-header'
-          ));?>
-      </div>
   </div>
-</div>
