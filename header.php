@@ -18,14 +18,18 @@
     <header class="container">
       <div class="row">
         <div class="twelve columns">
-            <img alt="headerpic" class="headerphoto" id="header" src="http://www.ashley-childers.com/WIEfinal/wp-content/uploads/2016/11/slicksheader.png"/ width=100%>
-
-            <span class='blank-menu-header'><?php
+            <img alt="headerpic" class="headerphoto" id="header" src="http://www.ashley-childers.com/WIEfinal/wp-content/uploads/2016/11/slicksheader2.png"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="tweleve columns">
+            <div class="blank-menu-header">
+              <?php
               wp_nav_menu(array(
                   'sort_column' => 'menu_order',
                   'container_class' => 'blank-menu-header'
                 ));?>
-              </span>
+              </div>
             </div>
         </div>
       </div>
