@@ -1,4 +1,7 @@
-    <footer class="row">
+</div> <!--- End Container div --->
+  <div class ="footer-wrapper">
+    <footer class="container">
+      <div class="row">
         <div class="four columns">
           <?php dynamic_sidebar('footer-one'); ?>
         </div>
@@ -9,7 +12,6 @@
           <?php dynamic_sidebar('footer-three'); ?>
         </div>
       </footer>
-    </div><!---End Container Div -->
-      <?php wp_footer(); ?>
+    </div>
 </body>
 </html>
