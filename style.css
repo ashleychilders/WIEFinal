@@ -56,7 +56,7 @@ a {
 
 /*---- Header -----*/
 .headerphoto {
-  margin-top: 20px;
+  padding-top: 20px;
   width: 100%;
 }
 .header-wrapper {
@@ -96,6 +96,32 @@ a {
     color: #333333;
     text-shadow: 1px 1px 0px #ffffff;
     border-bottom:3px solid #333333;
+}
+
+/*------Index------*/
+.indexone {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  -webkit-box-shadow: -25px -25px 0px 0px rgba(0,51,102,1);
+  -moz-box-shadow: -25px -25px 0px 0px rgba(0,51,102,1);
+  box-shadow: -25px -25px 0px 0px rgba(0,51,102,1);
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  border: 0px solid #000000;
+}
+
+.indextext {
+  align-content: center;
+  margin-left: 10px;
+}
+
+.indextext h2 {
+  background-color: #003366;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px;
 }
 
 /*--- Footer ------*/
