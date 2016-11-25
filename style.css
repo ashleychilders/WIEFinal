@@ -18,9 +18,9 @@ Text Domain: Ashley_Childers_blank_template
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-html {
+/*html {
   font-size: 80%;
-}
+}*/
 
 
 h1 {
@@ -29,6 +29,7 @@ h1 {
 
 h2 {
   font-size: 2.0rem;
+  letter-spacing: 0.7px;
 }
 
 h3 {
@@ -54,6 +55,14 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-bottom: 3px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #303030;
+  font-size: 1.3rem;
+  letter-spacing: normal;
+}
+
 /*---- Header -----*/
 .headerphoto {
   padding-top: 20px;
@@ -61,7 +70,8 @@ a {
 }
 .header-wrapper {
   background-color: #cccccc;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /*--- Menu --- */
 
@@ -99,7 +109,39 @@ a {
 }
 
 /*------Index------*/
-.indexone {
+
+.four.columns {
+  width: 29%;
+}
+
+.four.column {
+  width: 29%;
+}
+
+.four.columns {
+  margin-left: 5px;
+}
+
+.four.column {
+  margin-left: 5px;
+
+}
+.four.columns:nth-child(2){
+  margin-left: 4%;
+}
+
+.four.column:nth-child(2) {
+  margin-left: 4%;
+}
+.four.columns:nth-child(3){
+  margin-left: 4%;
+}
+
+.four.column:nth-child(3) {
+  margin-left: 4%;
+}
+
+.indexphoto {
   margin-top: 60px;
   margin-bottom: 30px;
   margin-left: 30px;
@@ -112,16 +154,13 @@ a {
   border: 0px solid #000000;
 }
 
-.indextext {
-  align-content: center;
-  margin-left: 10px;
-}
 
 .indextext h2 {
   background-color: #003366;
   text-align: center;
   color: #ffffff;
   padding: 4px;
+  letter-spacing: 0.7px;
 }
 
 /*--- Footer ------*/
@@ -137,8 +176,8 @@ a {
   align-content: center;
 }
 .fb {
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .phoneicon {
-  padding-right: 5px;
+  padding-right: 10px;
 }
