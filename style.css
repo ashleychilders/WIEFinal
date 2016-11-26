@@ -51,12 +51,8 @@ h6 {
     font-size: 1.0rem;
 }
 
-a {
-  text-decoration: none;
-}
-
 p {
-  margin-bottom: 3px;
+  padding-bottom: 5px;
   font-family: 'Source Sans Pro', sans-serif;
   color: #303030;
   font-size: 1.3rem;
@@ -153,8 +149,10 @@ p {
   border-radius: 50%;
   border: 0px solid #000000;
 }
-
-
+.indextext p {
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
 .indextext h2 {
   background-color: #003366;
   text-align: center;
@@ -167,6 +165,53 @@ p {
   margin-left: 5px;
 }
 
+.indexadarea{
+  margin-top: 25px;
+}
+
+.button {
+  display: inline;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 160px;
+  text-align: center;
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  color: #ffffff;
+  font-size: 12px;
+  background: #ba2727;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #003366;
+  text-decoration: none;
+  color: #ffffff;
+}
+/*----- About------*/
+.about {
+  margin-top: 10px;
+}
+.aboutfeedback {
+  margin-top: 10px;
+}
+.about h3 {
+  font-size: 1.8rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #003366;
+  padding-top:5px;
+  padding-bottom: 3px;
+}
+
+#client {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 /*--- Footer ------*/
 .footer-wrapper {
   margin-top: 30px;
