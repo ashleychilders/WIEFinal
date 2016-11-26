@@ -76,7 +76,8 @@ p {
     align-content: center;
     left: 0;
     padding-top: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 0.3px;
     width: 100%;
 }
 .blank-menu-header ul {
@@ -161,9 +162,11 @@ p {
   padding: 4px;
   letter-spacing: 0.7px;
 }
-
+#indeximage {
+  padding-right: 30px;
+}
 #indexad {
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 .indexadarea{
@@ -196,10 +199,10 @@ p {
 }
 /*----- About------*/
 .about {
-  margin-top: 10px;
+  margin-top: 30px;
 }
-.aboutfeedback {
-  margin-top: 10px;
+.feedback {
+  margin-top: 30px;
 }
 .about h3 {
   font-size: 1.8rem;
@@ -211,8 +214,8 @@ p {
 }
 
 #client {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 /*--- Footer ------*/
 .footer-wrapper {

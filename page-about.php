@@ -48,7 +48,7 @@ get_header(); ?>
           </div>
         </div>
         <div class="four columns">
-          <div class="aboutfeedback">
+          <div class="feedback">
           <?php dynamic_sidebar('aboutwid'); ?>
           </div>
         </div>

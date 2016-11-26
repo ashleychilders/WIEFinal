@@ -20,10 +20,10 @@
     <div class="row">
       <div class="indexadarea">
         <div class="four columns">
-          <img alt="indexphoto" src="http://www.ashley-childers.com/WIEfinal/wp-content/uploads/2016/11/8241752621_9e073103c4_z-e1480106899320.jpg" width="100%" height="100%"/>
+          <img alt="indexphoto" id="indeximage" src="http://www.ashley-childers.com/WIEfinal/wp-content/uploads/2016/11/groupad.png"/>
         </div>
         <div class="eight columns">
-          <img alt="indexad" id="indexad" src="http://www.ashley-childers.com/WIEfinal/wp-content/uploads/2016/11/winterad.png"/>
+          <img alt="indexad" id="indexad" src="http://www.ashley-childers.com/WIEfinal/wp-content/uploads/2016/11/ad.png"/>
         </div>
       </div>
     </div>
