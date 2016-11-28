@@ -54,6 +54,41 @@ register_sidebar( array(
                 'before_title'  => '<h3>',
                 'after_title'   => '</h3>'
                 ));
+
+
+/*--------------First SERVICES Widget---------------*/
+          register_sidebar( array(
+            'name'          => ('First Services Widget'),
+            'id'            => 'service-one',
+            'description'   => 'Left widget in services',
+            'before_widget' => '<div class="widget-service widget-left">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3>',
+            'after_title'   => '</h3>'
+            ));
+
+/*-------------- Second SERVICES Widget --------------- */
+          register_sidebar( array(
+            'name'          => ('Second Services Widget'),
+            'id'            => 'services-two',
+            'description'   => 'Middle widget in services',
+            'before_widget' => '<div class="widget-services widget-middle">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3>',
+            'after_title'   => '</h3>'
+          ));
+
+/*-------------- Third SERVICES Widget -------------- */
+          register_sidebar( array(
+            'name'          => ('Third Services Widget'),
+            'id'            => 'services-three',
+            'description'   => 'Right widget in services',
+            'before_widget' => '<div class="widget-services widget-right">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3>',
+            'after_title'   => '</h3>'
+          ));
+
 /*-------------- First Footer Widget --------------- */
     register_sidebar( array(
         'name'          => ('First Footer Widget'),

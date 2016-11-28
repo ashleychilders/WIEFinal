@@ -25,6 +25,8 @@ Text Domain: Ashley_Childers_blank_template
 
 h1 {
   font-size: 2.4rem;
+  letter-spacing: 0.7px;
+  font-family: 'Bree Serif', serif;
 }
 
 h2 {
@@ -72,11 +74,10 @@ p {
 }
 /*--- Menu --- */
 
-.blank-menu-header{
+.blank-menu-header {
     align-content: center;
     left: 0;
     padding-top: 10px;
-    font-family: 'Bree Serif', serif;
     letter-spacing: 0.3px;
     width: 100%;
 }
@@ -89,15 +90,18 @@ p {
 .blank-menu-header li {
     display: inline;
 
+
 }
 .blank-menu-header ul li a {
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 0.5px;
     text-decoration:none;
     font-size: 2rem;
     margin: 10px;
     padding-top: 10px;
     margin-right: 35px;
     padding-bottom: 5px;
-    margin-left: 105px;
+    margin-left: 70px;
     color: #003366;
 }
 .blank-menu-header ul li a:hover {
@@ -159,7 +163,8 @@ p {
   background-color: #003366;
   text-align: center;
   color: #ffffff;
-  padding: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   letter-spacing: 0.7px;
 }
 #indeximage {
@@ -202,9 +207,13 @@ p {
   margin-top: 30px;
 }
 .feedback {
-  margin-top: 30px;
+  margin-top: 50px;
 }
-.about h3 {
+
+.about h1 {
+  color: #003366;
+}
+.about h2 {
   font-size: 1.8rem;
   font-family: 'Bree Serif', serif;
   color: #003366;
@@ -213,10 +222,19 @@ p {
   border-bottom:2px solid #003366;
 }
 
-#client {
+.client {
   margin-top: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
+
+.client:hover {
+  -webkit-transform: rotate(6deg);
+   -moz-transform: rotate(6deg);
+   -o-transform: rotate(6deg);
+   -ms-transform: rotate(6deg);
+   transform: rotate(6deg);
+}
+
 /*--- Footer ------*/
 .footer-wrapper {
   margin-top: 30px;
