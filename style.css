@@ -57,7 +57,7 @@ h6 {
 p {
   margin-bottom: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #303030;
+  color: #000000;
   font-size: 1.3rem;
   letter-spacing: normal;
 }
@@ -223,13 +223,19 @@ li {
   font-family: 'Bree Serif', serif;
   color: #303030;;
   padding-top:5px;
-  padding-bottom: 3px;
+  padding-bottom: 8px;
   border-bottom:2px solid #003366;
 }
 
 .client {
   margin-top: 8px;
   margin-bottom: 20px;
+  -webkit-box-shadow: 25px 25px 0px 0px rgba(204,204,204,1);
+  -moz-box-shadow: 25px 25px 0px 0px rgba(204,204,204,1);
+  box-shadow: 25px 25px 0px 0px rgba(204,204,204,1);
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
 }
 
 .client:hover {
@@ -239,7 +245,14 @@ li {
    -ms-transform: rotate(6deg);
    transform: rotate(6deg);
 }
-
+/*-----Services-------*/
+.servicemain {
+  margin-top: 30px;
+}
+.services {
+  border-top: 2px solid #003366;
+  padding-top: 20px;
+}
 /*---- Contact------*/
 
 .contactpage {
