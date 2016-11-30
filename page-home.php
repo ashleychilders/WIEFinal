@@ -20,7 +20,7 @@
     <div class="row">
       <div class="indexadarea">
         <div class="four columns">
-          <img alt="indexphoto" id="indeximage" src="http://www.ashley-childers.com/WIEfinal/wp-content/uploads/2016/11/groupad.png"/>
+          <img alt="indexphoto" id="indeximage" src="http://www.ashley-childers.com/WIEfinal/wp-content/uploads/2016/11/shake-1.png"/>
         </div>
         <div class="eight columns">
           <img alt="indexad" id="indexad" src="http://www.ashley-childers.com/WIEfinal/wp-content/uploads/2016/11/ad.png"/>
