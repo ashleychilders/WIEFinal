@@ -81,6 +81,7 @@ li {
     left: 0;
     padding-top: 10px;
     letter-spacing: 0.3px;
+    width: 100%;
 }
 .blank-menu-header ul {
     margin: 0;
