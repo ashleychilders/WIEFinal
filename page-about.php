@@ -20,7 +20,11 @@ get_header(); ?>
             customers in every way. Staying current with technology and maintaining a well trained
             staff has allowed us to provide our customers with the highest quality repair and service
             in the automotive industry today.</p>
+            <p>Behind our success is our CEO, Gary Slick. You won't see Gary sitting behind a desk when you visit Slick's he's hands on in all
+              of our operations and doesn't mind jumping in to help. Gary prides leading Slick's by example. He is a third generation automotive mechanic, car repair runs in his blood!</p>
+            <p>At Slick's there are three words that define our mission: Quality, Excellence, and Satisfaction. These are what define our core and what we are in the automotive business to achive. Find out more below about our core values and see what our clients have to say on the right.</p>
 
+        <div class="aboutsections">
           <h2>Quality</h2>
           <p>Slick's ascribes to the highest quality standards in automotive body and mechanical repair.
             Our technicians are trained in the latest techniques through the Inter-Industry Conference on Auto
@@ -46,6 +50,7 @@ get_header(); ?>
             extra mile to make sure your questions are answered, your concerns are addressed, and your vehicle repair work
             is done using the highest level of standards.</p>
           </div>
+        </div>
         </div>
         <div class="four columns">
           <div class="feedback">

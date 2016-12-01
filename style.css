@@ -216,6 +216,13 @@ li {
   margin-top: 50px;
 }
 
+.aboutsections {
+  margin-top: 50px;
+}
+
+.aboutsections p {
+  margin-bottom: 20px;
+}
 .about h1 {
   color: #303030;
 }
@@ -224,12 +231,16 @@ li {
   font-family: 'Bree Serif', serif;
   color: #303030;;
   padding-top:5px;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   border-bottom:2px solid #003366;
 }
 
+.feedbackpics {
+  padding-top: 40px;
+}
+
 .client {
-  margin-top: 8px;
+  margin-top: 15px;
   margin-bottom: 20px;
   -webkit-box-shadow: 25px 25px 0px 0px rgba(204,204,204,1);
   -moz-box-shadow: 25px 25px 0px 0px rgba(204,204,204,1);
