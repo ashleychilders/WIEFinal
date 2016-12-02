@@ -3,6 +3,7 @@
 
 get_header(); ?>
 <div class="container">
+  <div class="error">
     <div class="row">
         <div class="eight columns">
             <h1>Not Found</h1>
@@ -16,5 +17,6 @@ get_header(); ?>
             <?php get_sidebar(); ?>
         </div>
     </div>
+  </div>
 </div>
 <?php get_footer(); ?>

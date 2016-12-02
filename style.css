@@ -323,6 +323,11 @@ li {
 .search h3 {
   color: #000000;
 }
+
+/*--- 404 Page----*/
+.error {
+  margin-top: 30px;
+}
 /*--- Footer ------*/
 .footer-wrapper {
   margin-top: 30px;
