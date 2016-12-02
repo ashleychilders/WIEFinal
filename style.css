@@ -18,8 +18,9 @@ Text Domain: Ashley_Childers_blank_template
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-*html {
-  font-size: 85%;
+html {
+  font-size: 70%;
+  margin-top: 0px;
 }
 
 
@@ -58,11 +59,12 @@ p {
   margin-bottom: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
   color: #000000;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   letter-spacing: normal;
 }
 li {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.3rem;
+  font-size:1.4rem;
 }
 /*---- Header -----*/
 .headerphoto {
@@ -71,7 +73,7 @@ li {
 }
 .header-wrapper {
   background-color: #cccccc;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 /*--- Menu --- */
@@ -103,7 +105,7 @@ li {
     padding-top: 10px;
     margin-right: 35px;
     padding-bottom: 5px;
-    margin-left: 68px;
+    margin-left: 60px;
     color: #003366;
 }
 .blank-menu-header ul li a:hover {
@@ -224,15 +226,14 @@ li {
   margin-bottom: 20px;
 }
 .about h1 {
-  color: #303030;
+  color: #000000;
 }
 .about h2 {
-  font-size: 1.8rem;
   font-family: 'Bree Serif', serif;
-  color: #303030;;
+  color: #000000;
   padding-top:5px;
   padding-bottom: 10px;
-  border-bottom:2px solid #003366;
+  border-bottom: 3px solid #003366;
 }
 
 .feedbackpics {
@@ -261,9 +262,13 @@ li {
 .servicemain {
   margin-top: 30px;
 }
+.servicetop p {
+  padding-left: 10px;
+}
 .services {
-  border-top: 2px solid #003366;
+  border-top: 3px solid #003366;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 /*---- Contact------*/
 #smformcont-139 {
@@ -272,12 +277,16 @@ li {
 }
 .contactpage {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
+
 .slickc h3 {
     font-size: 1.8rem;
     font-family: 'Bree Serif', serif;
-    color: #003366;
+    color: #000000;
     letter-spacing: 0.7px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .slickc h5 {
@@ -285,16 +294,34 @@ li {
     color: #003366;
     font-size: 1.2rem;
 }
+
+.slickc p {
+  padding-bottom: 5px;
+}
 .smform-title h3 {
   font-size: 1.8rem;
   font-family: 'Bree Serif', serif;
   color: #003366;
   letter-spacing: 0.7px;
 }
-
+.assnlogo{
+  margin-top: 5px;
+}
+.assn {
+  padding-bottom: 5px;
+}
 /*---- Blog Page-----*/
 .single {
   margin-top: 30px;
+}
+
+/*-----Search Result----*/
+.search {
+  margin-top: 30px;
+}
+
+.search h3 {
+  color: #000000;
 }
 /*--- Footer ------*/
 .footer-wrapper {

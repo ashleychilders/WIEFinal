@@ -1,5 +1,9 @@
-<!-- Begin Header -->
-  <?php get_header(); ?>
+<?php
+
+/* Template Name: Blog Page */
+
+get_header(); ?>
+
 <!-- End Header -->
 
 

@@ -2,12 +2,10 @@
   <div class="container">
     <div class="single">
   <div class="row">
-      <div class="four columns">
-        <div class="post-thumbnail">
-            <?php the_post_thumbnail('large'); ?></div>
-      </div>
+      <div class="eight columns">
+
+            <?php the_post_thumbnail('large'); ?>
 <!-- BEGIN PAGE PHP -->
-      <div class= "eight columns">
             <?php
                 if( have_posts() ) :
                     while( have_posts() ) :
@@ -20,6 +18,10 @@
                             endwhile;
                         endif; ?>
              <!-- End Loop -->
+    </div>
+    <div class="four columns">
+      <?php get_sidebar(); ?>
+    </div>
       </div>
     </div>
   </div>

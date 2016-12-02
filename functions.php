@@ -88,6 +88,16 @@ register_sidebar( array(
             'before_title'  => '<h3>',
             'after_title'   => '</h3>'
           ));
+/*-------------- Search Widget --------------- */
+          register_sidebar( array(
+          'name'          => ('Search Widget'),
+          'id'            => 'searchwid',
+          'description'   => 'Search',
+          'before_widget' => '<div class="search">',
+          'after_widget'  => '</div>',
+          'before_title'  => '<h3>',
+          'after_title'   => '</h3>'
+                    ));
 
 /*-------------- First Footer Widget --------------- */
     register_sidebar( array(
