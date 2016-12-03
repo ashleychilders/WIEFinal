@@ -35,6 +35,13 @@ h2 {
   letter-spacing: 0.7px;
   font-family: 'Bree Serif', serif;
 }
+h2 a {
+  font-size: 2.0rem;
+  letter-spacing: 0.7px;
+  color: #000000;
+  font-family: 'Bree Serif', serif;
+  text-decoration: none;
+}
 
 h3 {
     font-size: 1.8rem;
@@ -109,7 +116,7 @@ li {
     font-size: 1.8rem;
     padding-top: 10px;
     margin-right: 35px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     margin-left: 25px;
     color: #003366;
 }
@@ -217,7 +224,7 @@ li {
 }
 /*----- About------*/
 .about {
-  margin-top: 30px;
+  margin-top: 35px;
 }
 .feedback {
   margin-top: 135px;
@@ -265,7 +272,7 @@ li {
 }
 /*-----Services-------*/
 .servicemain {
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 .services {
@@ -290,6 +297,9 @@ li {
   color: #000000;
   padding-bottom: 10px;
   border-bottom: 3px solid #003366;
+}
+.pricephoto {
+  margin-top: 60px;
 }
 .psection {
   margin-top: 20px;
@@ -317,7 +327,7 @@ li {
   color: #ffffff;
 }
 .contactpage {
-  margin-top: 30px;
+  margin-top: 35px;
   margin-bottom: 30px;
 }
 
@@ -353,17 +363,17 @@ li {
 }
 /*---- Blog Page-----*/
 .single {
-  margin-top: 30px;
+  margin-top: 35px;
 }
 .blogpage {
-  margin-top: 30px;
+  margin-top: 35px;
   color: #000000;
- font-family: 'Bree Serif', serif; 
+ font-family: 'Bree Serif', serif;
 }
 
 /*-----Search Result----*/
 .search {
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 .search h3 {
@@ -374,7 +384,7 @@ li {
 }
 /*--- 404 Page----*/
 .error {
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 /*--- Search Button----*/
@@ -386,8 +396,8 @@ li {
 }
 /*--- Footer ------*/
 .footer-wrapper {
-  margin-top: 30px;
-  padding: 50px 1em;
+  margin-top: 25px;
+  padding: 35px 1em;
   background-color: #003366;
   color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
