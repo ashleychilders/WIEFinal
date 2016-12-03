@@ -117,7 +117,7 @@ li {
 /*------Index------*/
 
 .indexmain {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .four.columns {
@@ -215,7 +215,7 @@ li {
   margin-top: 30px;
 }
 .feedback {
-  margin-top: 80px;
+  margin-top: 95px;
 }
 
 .aboutsections {
@@ -237,7 +237,7 @@ li {
 }
 
 .feedbackpics {
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 .client {
@@ -267,14 +267,42 @@ li {
 }
 .services {
   border-top: 3px solid #003366;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.services h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*----Prices-----*/
+.prices {
+  border-top: 3px solid #003366;
+  margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.prices h2 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.psection {
+  margin-top: 20px;
+}
+.psectiontwo {
+  margin-top: 60px;
+}
+.psectionthree {
+  margin-top: 60px;
 }
 /*---- Contact------*/
 #smformcont-139 {
   background-color: #cccccc;
   padding: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000000;
+  font-size: 1.4rem;
 }
+
 .contactpage {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -308,7 +336,7 @@ li {
   margin-top: 5px;
 }
 .assn {
-  padding-bottom: 5px;
+  padding-bottom: 7px;
 }
 /*---- Blog Page-----*/
 .single {
