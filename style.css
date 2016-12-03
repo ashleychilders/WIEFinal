@@ -121,7 +121,7 @@ li {
     color: #003366;
 }
 .blank-menu-header ul li a:hover {
-    color: #333333;
+    color: #000000;
     text-shadow: 1px 1px 0px #ffffff;
     border-bottom:3px solid #333333;
 }
