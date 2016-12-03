@@ -83,7 +83,6 @@ li {
     left: 0;
     padding-top: 10px;
     letter-spacing: 0.3px;
-    width: 100%;
 }
 .blank-menu-header ul {
     margin: 0;
@@ -91,21 +90,27 @@ li {
     list-style-type: none;
     list-style-image: none;
 }
-.blank-menu-header li {
+.blank-menu-header ul li {
     display: inline;
-
-
 }
+
+@media (min-width: 800px) {
+  .menu ul li a {
+    margin-left: 45px;
+    font-size: 1.4rem;
+  }
+}
+
 .blank-menu-header ul li a {
     text-align: center;
     font-family: 'Bree Serif', serif;
     letter-spacing: 0.5px;
     text-decoration:none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 10px;
     margin-right: 35px;
-    padding-bottom: 5px;
-    margin-left: 60px;
+    padding-bottom: 10px;
+    margin-left: 25px;
     color: #003366;
 }
 .blank-menu-header ul li a:hover {
@@ -116,9 +121,9 @@ li {
 
 /*------Index------*/
 
-.indexmain {
+/*.indexmain {
   margin-left: 20px;
-}
+}*/
 
 .four.columns {
   width: 29%;
@@ -129,11 +134,11 @@ li {
 }
 
 .four.columns {
-  margin-left: 5px;
+  margin-left: 7px;
 }
 
 .four.column {
-  margin-left: 5px;
+  margin-left: 7px;
 
 }
 .four.columns:nth-child(2){
@@ -215,7 +220,7 @@ li {
   margin-top: 30px;
 }
 .feedback {
-  margin-top: 95px;
+  margin-top: 135px;
 }
 
 .aboutsections {
@@ -237,7 +242,7 @@ li {
 }
 
 .feedbackpics {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .client {
@@ -262,12 +267,11 @@ li {
 .servicemain {
   margin-top: 30px;
 }
-.servicetop p {
-  padding-left: 10px;
-}
+
 .services {
   border-top: 3px solid #003366;
-  margin-top: 20px;
+  margin-top: 15px;
+  padding-top: 30px;
   margin-bottom: 20px;
 }
 .services h2 {
@@ -276,14 +280,16 @@ li {
 }
 /*----Prices-----*/
 .prices {
-  border-top: 3px solid #003366;
-  margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .prices h2 {
   padding-top: 20px;
   padding-bottom: 5px;
+  font-family: 'Bree Serif', serif;
+  color: #000000;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #003366;
 }
 .psection {
   margin-top: 20px;
@@ -300,9 +306,16 @@ li {
   padding: 20px;
   font-family: 'Source Sans Pro', sans-serif;
   color: #000000;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
-
+.smform-submit {
+  background-color: #003366;
+  color: #ffffff;
+}
+.smform-submit.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  background-color: #ba2727;
+  color: #ffffff;
+}
 .contactpage {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -342,6 +355,11 @@ li {
 .single {
   margin-top: 30px;
 }
+.blogpage {
+  margin-top: 30px;
+  color: #000000;
+ font-family: 'Bree Serif', serif; 
+}
 
 /*-----Search Result----*/
 .search {
@@ -351,10 +369,20 @@ li {
 .search h3 {
   color: #000000;
 }
-
+.screen-reader-text {
+  color: #000000;
+}
 /*--- 404 Page----*/
 .error {
   margin-top: 30px;
+}
+
+/*--- Search Button----*/
+.screen-reader-text {
+  color:#ffffff;
+  font-size: 1.6rem;
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 0.7px;
 }
 /*--- Footer ------*/
 .footer-wrapper {
