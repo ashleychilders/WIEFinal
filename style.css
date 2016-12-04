@@ -104,7 +104,7 @@ li {
 
 @media (min-width: 800px) {
   .menu ul li a {
-    margin-left: 45px;
+    margin-left: 55px;
     font-size: 1.4rem;
   }
 }
@@ -360,7 +360,7 @@ li {
   margin-top: 5px;
 }
 .assn {
-  padding-bottom: 7px;
+  padding-bottom: 8px;
 }
 /*---- Blog Page-----*/
 .single {
