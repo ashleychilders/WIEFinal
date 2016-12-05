@@ -22,13 +22,15 @@
           </div>
         </div>
         <div class="row">
-          <div class="tweleve columns">
-            <div class="blank-menu-header">
-              <?php
-              wp_nav_menu(array(
-                  'sort_column' => 'menu_order',
-                  'container_class' => 'blank-menu-header'
-                ));?>
+          <div class="container">
+            <div class="tweleve columns">
+              <div class="blank-menu-header">
+                <?php
+                wp_nav_menu(array(
+                    'sort_column' => 'menu_order',
+                    'container_class' => 'blank-menu-header'
+                  ));?>
+                </div>
               </div>
             </div>
         </div>
