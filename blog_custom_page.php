@@ -12,6 +12,7 @@ get_header(); ?>
   <div class="container">
     <div class="blogpage">
       <div class="row">
+        <div class="blogpage">
           <div class="eight columns">
             <h1>Slick's Blog Posts</h1>
               <?php if (have_posts()) :
@@ -31,6 +32,7 @@ get_header(); ?>
                     </div>
                 <?php endif; wp_reset_query(); ?>
           </div>
+        </div>
           <div class ="four columns">
               <?php get_sidebar(); ?>
           </div>
