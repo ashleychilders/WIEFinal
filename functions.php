@@ -13,13 +13,13 @@ function blank_widgets_init() {
         ));
 /*--------------First Index Widget---------------*/
 register_sidebar( array(
-    'name'          => ('First Index Widget'),
-    'id'            => 'index-one',
-    'description'   => 'Left widget in the index',
-    'before_widget' => '<div class="widget-index widget-left">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
-    'after_title'   => '</h3>'
+        'name'          => ('First Index Widget'),
+        'id'            => 'index-one',
+        'description'   => 'Left widget in the index',
+        'before_widget' => '<div class="widget-index widget-left">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
     ));
 
 /*-------------- Second Index Widget --------------- */
@@ -45,15 +45,15 @@ register_sidebar( array(
             ));
 
 /*--------------About Page Widget---------------*/
-            register_sidebar( array(
-                'name'          => ('About Widget'),
-                'id'            => 'aboutwid',
-                'description'   => 'About widget in the index',
-                'before_widget' => '<div class="aboutwid">',
-                'after_widget'  => '</div>',
-                'before_title'  => '<h3>',
-                'after_title'   => '</h3>'
-                ));
+      register_sidebar( array(
+          'name'          => ('About Widget'),
+          'id'            => 'aboutwid',
+          'description'   => 'About widget in the index',
+          'before_widget' => '<div class="aboutwid">',
+          'after_widget'  => '</div>',
+          'before_title'  => '<h3>',
+          'after_title'   => '</h3>'
+          ));
 
 
 /*--------------First SERVICES Widget---------------*/
@@ -97,8 +97,17 @@ register_sidebar( array(
           'after_widget'  => '</div>',
           'before_title'  => '<h3>',
           'after_title'   => '</h3>'
-                    ));
-
+));
+/*-------------- Archive Widget --------------- */
+          register_sidebar( array(
+          'name'          => ('Archive Widget'),
+          'id'            => 'archive-wid',
+          'description'   => 'Archive Widget',
+          'before_widget' => '<div class="widget-archive">',
+          'after_widget'  => '</div>',
+          'before_title'  => '<h3>',
+          'after_title'   => '</h3>'
+            ));
 /*-------------- First Footer Widget --------------- */
     register_sidebar( array(
         'name'          => ('First Footer Widget'),

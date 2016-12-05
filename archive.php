@@ -5,22 +5,23 @@
 get_header(); ?>
 
   <div class="container">
-  <div class="row">
-      <div class="twelve columns">
-          <?php if ( have_posts() ) : ?>
-              <h2>Archives</h2>
-              <?php
-              // The Loop
-              while ( have_posts() ) : the_post();?>
-              <!-- data context -->
-                  <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-                  <?php the_excerpt(); ?>
-              <?php endwhile; ?> <!-- End Loop -->
-          <?php endif; ?>
+    <div class="archivepage">
+      <div class="row">
+        <div class="twelve columns">
+            <?php if ( have_posts() ) : ?>
+                <h2>Archives</h2>
+                <?php
+                // The Loop
+                while ( have_posts() ) : the_post();?>
+                <!-- data context -->
+                    <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                    <?php the_excerpt(); ?>
+                <?php endwhile; ?> <!-- End Loop -->
+            <?php endif; ?>
       </div>
   </div>
   <div class="row">
-      <div class="twelve columns">
+      <div class="eight columns">
           <h2>Archives by Month:</h2>
           <ul>
               <?php wp_get_archives('type=monthly'); ?>
@@ -29,6 +30,9 @@ get_header(); ?>
           <ul>
                <?php wp_list_categories(); ?>
           </ul>
+      </div>
+      <div class="four columns">
+          <?php dynamic_sidebar('archive-wid'); ?>
       </div>
   </div>
 </div>
