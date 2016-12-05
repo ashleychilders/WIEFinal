@@ -1,5 +1,5 @@
   <!-- Begin Header -->
-    <?php get_header(); ?>
+  <?php get_header(); ?>
   <!-- End Header -->
 
   <!-- Begin Section Container -->
@@ -16,9 +16,9 @@
             <?php dynamic_sidebar('index-three'); ?>
           </div>
       </div>
-      </div>
     </div>
-    <div class="container">
+  </div>
+  <div class="container">
       <div class="row">
         <div class="indexadarea">
           <div class="four columns">

@@ -32,9 +32,9 @@ get_header(); ?>
                     </div>
                 <?php endif; wp_reset_query(); ?>
           </div>
-        </div>
+          </div>
           <div class ="four columns">
-              <?php get_sidebar(); ?>
+                <?php get_sidebar(); ?>
           </div>
         </div>
     </div>
