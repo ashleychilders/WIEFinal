@@ -6,13 +6,13 @@
   <div class="container"
     <div class="indexmain">
       <div class="row">
-          <div class="four columns">
+          <div class="four columns index-widget">
             <?php dynamic_sidebar('index-one'); ?>
           </div>
-          <div class="four columns">
+          <div class="four columns index-widget">
             <?php dynamic_sidebar('index-two'); ?>
           </div>
-          <div class="four columns">
+          <div class="four columns index-widget">
             <?php dynamic_sidebar('index-three'); ?>
           </div>
       </div>

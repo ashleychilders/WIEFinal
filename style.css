@@ -173,6 +173,11 @@ li {
   margin-left: 5%;
 }
 
+.index-widget {
+  min-width: 280px;
+  min-height: 400px;
+}
+
 .indexphoto {
   margin-top: 60px;
   margin-bottom: 30px;
@@ -461,6 +466,10 @@ li {
 }
 
 /*--- Footer ------*/
+.footer-widget {
+  min-width: 280px;
+  min-height: 200px;
+}
 
 .footer-wrapper {
   margin-top: 25px;
